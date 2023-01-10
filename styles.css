@@ -215,4 +215,23 @@
       }
    }
 
+   /* Section video
+   ============================= */
+   .free-membership {
+      background: #071629;
+      font-family: var(--font-family-base);
+   }
+
+   .free-membership h3 {
+      font-size: var(--font-size-x-lg);
+   }
+
+   .free-membership h5 {
+      font-size: var(--font-size-lg);
+   }
+
+   .free-membership p {
+      font-size: var(--font-size-sm);
+      line-height: 2.6rem;
+   }
 
