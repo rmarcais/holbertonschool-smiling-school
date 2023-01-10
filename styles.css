@@ -19,6 +19,8 @@
     --section-hero-background-position: 35% 10%;
     --section-hero-margin: -20rem 0 0 0;
     --sectio-hero-body-padding: 36rem 0rem 8rem 0rem;
+
+    --section-quote-padding: 8rem 0rem;
    }
 
 /* Base
@@ -116,4 +118,53 @@
 
    .learn-from-pros p {
     font-size: var(--font-size-md);
+   }
+
+   /* Section quote
+   ============================= */
+
+   .section-quote {
+      background-color: #C271FF;
+      font-size: 2.2rem;
+      font-family: var(--font-family-base);
+   }
+
+   .carousel-control-prev {
+      padding-bottom: 26rem;
+   }
+
+   .carousel-control-next {
+      padding-bottom: 26rem;
+   }
+
+   @media only screen and (min-width: 576px) {
+      .carousel-quote {
+         padding: 8rem 9rem;
+      }
+      .carousel-control-prev {
+         padding-right: 6rem;
+      }
+   
+      .carousel-control-next {
+         padding-left: 6rem;
+      }
+   }
+
+   @media only screen and (min-width: 768px) {
+      .carousel-quote {
+         padding: 8rem  6rem;
+      }
+      .carousel-control-prev {
+         padding-right: 10rem;
+      }
+   
+      .carousel-control-next {
+         padding-left: 10rem;
+      }
+   }
+
+   @media only screen and (min-width: 992px) {
+      .carousel-quote {
+         padding: 8rem 10rem 8rem 0rem;
+      }
    }
