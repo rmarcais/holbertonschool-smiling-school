@@ -1,11 +1,7 @@
-/* Reset / Normalize
-   ============================= */
-
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}
 
 /* Variables
    ============================= */
-
    :root {
     --font-size-x-sm: 1.2rem;
     --font-size-sm: 1.4rem;
@@ -25,7 +21,6 @@
 
 /* Base
    ============================= */
-
    html {
     scroll-behavior: smooth;
     font-size: 62.5%;
@@ -41,9 +36,31 @@
     opacity: 0.9 !important;
    }
 
+   .card {
+      margin: 0 auto;
+   }
+
+   .card p {
+      font-size: var(--font-size-sm);
+      color: #C271FF;
+   }
+   
+   .card-title {
+      font-size: var(--font-size-md);
+   }
+
+   .play {
+      left: 95.5px;
+      top: 45px;
+   }
+
+   .image-group .play{
+      left: 32%;
+      top: 30%;
+   }
+
 /* Header
    ============================= */
-
    header {
     z-index: 1;
     font-family: var(--font-family-base);
@@ -67,7 +84,6 @@
 
 /* Section hero
    ============================= */
-
    .section-hero {
     background: url(./images/pic_1.jpg);
     position: relative;
@@ -108,7 +124,7 @@
     font-size: var(--font-size-x-lg);
    }
 
-   .learn-from-pros h3 span {
+   h3 span {
     color: #C271FF;
    }
 
@@ -122,18 +138,17 @@
 
    /* Section quote
    ============================= */
-
    .section-quote {
       background-color: #C271FF;
       font-size: 2.2rem;
       font-family: var(--font-family-base);
    }
 
-   .carousel-control-prev {
+   .section-quote .carousel-control-prev {
       padding-bottom: 26rem;
    }
 
-   .carousel-control-next {
+   .section-quote .carousel-control-next {
       padding-bottom: 26rem;
    }
 
@@ -141,11 +156,11 @@
       .carousel-quote {
          padding: 8rem 9rem;
       }
-      .carousel-control-prev {
+      .section-quote .carousel-control-prev {
          padding-right: 6rem;
       }
    
-      .carousel-control-next {
+      .section-quote .carousel-control-next {
          padding-left: 6rem;
       }
    }
@@ -154,11 +169,11 @@
       .carousel-quote {
          padding: 8rem  6rem;
       }
-      .carousel-control-prev {
+      .section-quote .carousel-control-prev {
          padding-right: 10rem;
       }
    
-      .carousel-control-next {
+      .section-quote .carousel-control-next {
          padding-left: 10rem;
       }
    }
@@ -168,3 +183,36 @@
          padding: 8rem 10rem 8rem 0rem;
       }
    }
+
+   /* Section video
+   ============================= */
+   .videos {
+      font-family: var(--font-family-base);
+   }
+
+   .videos h3 {
+      font-size: var(--font-size-x-lg);
+   }
+   .carousel-videos {
+      padding: 0 16rem;
+   }
+
+   @media only screen and (max-width: 991px) {
+      .carousel-videos {
+         padding: 0 7rem;
+      }
+   }
+
+   @media only screen and (max-width: 766px) {
+      .carousel-videos {
+         padding: 0 10rem;
+      }
+   }
+
+   @media only screen and (max-width: 575px) {
+      .carousel-videos {
+         padding: 0;
+      }
+   }
+
+
