@@ -235,3 +235,26 @@
       line-height: 2.6rem;
    }
 
+   /* Footer
+   ============================= */
+   .footer {
+      background: #071629;
+      padding: 8rem 0 2.5rem;
+   }
+
+   .social-item span {
+      font-size: 3rem;
+   }
+
+   @media only screen and (max-width: 575px) {
+      .footer-inner {
+         justify-content: center !important;
+      }
+      .footer .logo {
+         text-align: center !important;
+      }
+      .footer ul {
+         justify-content: center !important;
+      }
+   }
+
