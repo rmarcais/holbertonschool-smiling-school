@@ -44,6 +44,8 @@
 }
 .holberton_school-icon-check:before {
   content: "\e905";
+  color: #82D24F;
+  font-size: 2.8rem;
 }
 .holberton_school-icon-ic_bag:before {
   content: "\e906";
