@@ -82,6 +82,10 @@
       font-size: var(--font-size-x-lg);
    }
 
+   .f-xx-large {
+      font-size: 4.4rem;
+   }
+
 /* Header
    ============================= */
    header {
