@@ -92,6 +92,12 @@
     cursor: pointer;
    }
 
+   .active-item {
+      color: #C271FF !important;
+      text-decoration: underline #FFFFFF .2rem;
+      text-underline-offset: .5rem;
+   }
+
    @media only screen and (min-width: 576px) {
     .navbar-nav {
         display: flex !important;
@@ -108,6 +114,19 @@
     background-position: var(--section-hero-background-position);
     background-size: cover;
     margin: var(--section-hero-margin);
+   }
+
+   .section-hero-pricing {
+      background: url(./images/pic_2.jpg);
+      background-position: 50% 10%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin-top: -23rem;
+      position: relative;
+   }
+
+   .section-pricing-title {
+      font-size: 6rem;
    }
 
    .section-hero .section-body {
