@@ -96,7 +96,7 @@
     cursor: pointer;
    }
 
-   .active-item {
+   .active-item, .nav-link:hover, .nav-link:active {
       color: #C271FF !important;
       text-decoration: underline #FFFFFF .2rem;
       text-underline-offset: .5rem;
