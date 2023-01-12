@@ -11,9 +11,9 @@
         <link rel='stylesheet' href='styles.css'>
         <link rel='stylesheet' href='style.css'>
 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     </head>
@@ -63,6 +63,46 @@
                             </h1>
                         </section>
                     </section>
+                </div>
+            </section>
+            <!-- Filters section -->
+            <section class="section section-filters py-5 text-white">
+                <div class="container-md">
+                    <div class="row px-0 px-sm-5 px-md-0">
+                        <div class="col-md-4 mb-2 mb-sm-0">
+                            <p class="text-uppercase font-weight-bold f-x-small">keywords</p>
+                            <div class="input-group border-bottom filters py-2 px-4">
+                                <span class="holberton_school-icon-search_1 m-auto"></span>
+                                <input type="text" class="form-control border-0 py-3 px-4 font-weight-light text-white border-0" placeholder="Search by keywords" aria-label="Search by keywords" aria-describedby="basic-addon1">
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 mt-4 mt-md-0 mb-2">
+                            <p class="text-uppercase font-weight-bold f-x-small">topic</p>
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle w-100 text-left font-weight-light border-bottom py-3 px-4 filters" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Novice
+                                </button>
+                                <div class="dropdown-menu w-100 m-0 border-light" aria-labelledby="dropdownMenuButton">
+                                  <a class="dropdown-item f-medium px-4 py-2" href="#">Novice</a>
+                                  <a class="dropdown-item f-medium px-4 py-2" href="#">Intermediate</a>
+                                  <a class="dropdown-item f-medium px-4 pt-2 pb-3" href="#">Expert</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 mt-4 mt-md-0">
+                            <p class="text-uppercase font-weight-bold f-x-small">sort by</p>
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle w-100 text-left font-weight-light border-bottom py-3 px-4 filters" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Most Popular
+                                </button>
+                                <div class="dropdown-menu w-100 m-0 border-light" aria-labelledby="dropdownMenuButton">
+                                  <a class="dropdown-item f-medium px-4 py-2" href="#">Most Popular</a>
+                                  <a class="dropdown-item f-medium px-4 py-2" href="#">Most Recent</a>
+                                  <a class="dropdown-item f-medium px-4 pt-2 pb-3" href="#">Most Viewed</a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>

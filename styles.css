@@ -298,6 +298,38 @@
       }
    }
 
+   /* Section filters
+   ============================= */
+   .section-filters {
+      background: #C271FF;
+   }
+
+   .section-filters input, .section-filters input:focus {
+      box-shadow: none !important;
+      background: transparent;
+      font-size: 2.3rem;
+   }
+
+   .section-filters input::placeholder {
+      color: rgba(255, 255, 255, 0.25);
+   }
+
+   .filters {
+      background: rgba(255, 255, 255, 0.25) !important;
+      font-size: 2.3rem !important;
+      border-radius: 4px 4px 0 0 !important;
+   }
+
+   .dropdown button:after {
+      float: right;
+      margin-top: 1.4rem;
+   }
+
+   .dropdown-item:hover, .dropdown-item:active {
+      color: #C271FF !important;
+      background: #FFFFFF !important;
+   }
+
    /* Footer
    ============================= */
    .footer {
