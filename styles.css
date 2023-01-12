@@ -129,8 +129,29 @@
       position: relative;
    }
 
+   .section-hero-courses {
+      background: url(./images/pic_3.jpg);
+      background-position: 50% 10%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin-top: -23rem;
+      position: relative;
+   }
+
+   .section-hero-courses .section-body {
+      padding: 25rem 0 6rem 0;
+   }
+
    .section-pricing-title, .faq-title {
       font-size: 6rem;
+   }
+
+   .courses-title {
+      font-family: 'Coiny', cursive;
+   }
+
+   .courses-title span {
+      color: #C271FF;
    }
 
    .section-hero .section-body {
@@ -153,6 +174,9 @@
       }
       .text-logo {
          width: 50%;
+      }
+      .section-hero-courses {
+         height: 24rem;
       }
    }
 
