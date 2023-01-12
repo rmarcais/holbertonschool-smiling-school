@@ -40,7 +40,86 @@ For this project, you will need: fonts from Google, JQuery, Bootstrap CSS/JS
 
 ## Project steps with result 📝
 
-*To do*
+### **1: Homepage**
+- ### Create the header/hero piece
+
+<p align="center">
+<img src="./images/header_hero_piece_homepage.png" width="800px">
+</p>
+
+- ### Create the section "Carousel of quotes"
+  
+<p align="center">
+<img src="./images/carousel_quotes.png" width="800px">
+</p>
+
+- ### Create the section "Most popular tutorials"
+  
+<p align="center">
+<img src="./images/popular_tutorials.png" width="800px">
+</p>
+
+- ### Create the section "Free membership"
+  
+<p align="center">
+<img src="./images/free_membership.png" width="800px">
+</p>
+
+- ### Create the section "Latest videos"
+  
+<p align="center">
+<img src="./images/latest_videos.png" width="800px">
+</p>
+
+- ### Create the footer
+  
+<p align="center">
+<img src="./images/footer.png" width="800px">
+</p>
+
+
+### **2: Pricing page**
+- ### Create the header/hero piece
+  
+<p align="center">
+<img src="./images/header_hero_piece_pricing_page.png" width="800px">
+</p>
+
+- ### Create the prices grid
+  
+<p align="center">
+<img src="./images/prices_grid.png" width="800px">
+</p>
+
+- ### Create the section "Carousel of quotes" (same as Homepage)
+- ### Create the FAQ grid
+  
+<p align="center">
+<img src="./images/faq.png" width="800px">
+</p>
+
+- ### Create the footer (same as Homepage)
+
+### **3: Courses page**
+- ### Create the header/hero piece
+  
+<p align="center">
+<img src="./images/header_hero_piece_courses_page.png" width="800px">
+</p>
+
+- ### Create the search filters section
+  
+<p align="center">
+<img src="./images/filters.png" width="800px">
+</p>
+
+- ### Create the result section of courses
+  
+<p align="center">
+<img src="./images/result_section_courses.png" width="800px">
+</p>
+
+- ### Create the footer (Same as Homepage)
 
 ## Tools 🛠️
 
