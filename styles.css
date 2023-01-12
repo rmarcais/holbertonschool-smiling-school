@@ -58,6 +58,13 @@
       top: 30%;
    }
 
+   @media only screen and (max-width: 575px) {
+      .image-group .play{
+         left: 40%;
+         top: 35%;
+      }
+   }
+
    .section {
       font-family: var(--font-family-base);
    }
@@ -328,6 +335,12 @@
    .dropdown-item:hover, .dropdown-item:active {
       color: #C271FF !important;
       background: #FFFFFF !important;
+   }
+
+   /* Section results
+   ============================= */
+   .section-result .section-inner p:first-child {
+      opacity: 30%;
    }
 
    /* Footer
